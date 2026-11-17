@@ -15,5 +15,5 @@ The application code in `app/` is complete and works. Do not change it. Your job
 | minio | minio | 9000 | bucket `campushub` is created by the API |
 | mailhog | mailhog | 1025 SMTP, 8025 UI | |
 
-Gateway routes: `/` to frontend, `/api/` to api, `/storage/` to `minio:9000/campushub/`.
+Gateway routes: `/` to frontend, `api` to api, `/storage/` to `minio:9000/campushub/`.
 Environment variable names are in `.env.example`. Copy it to `.env` and keep `.env` out of git.
